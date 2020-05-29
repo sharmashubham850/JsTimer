@@ -1,0 +1,48 @@
+* {
+    font-family: sans-serif;
+}
+
+.dial {
+    height: 400px;
+    width: 400px;
+}
+
+
+.timer {
+    position: relative;
+    display: inline-block;
+}
+
+.timer input {
+    display: block;
+    border: none;
+    width: 240px;
+    font-size: 90px;
+    text-align: center;
+}
+
+.timer input:focus{
+    outline: none;
+}
+.controls {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#start-btn, #pause-btn {
+    border: none;
+    margin: 5px;
+    background-color: #fff;
+    font-size: 40px;
+}
+
+#start-btn:focus, #pause-btn:focus{
+    outline: none;
+}
